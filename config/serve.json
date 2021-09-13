@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://setitest.sharepoint.com/sites/dev/SitePages/DevHome.aspx",
+      "customActions": {
+        "989c6a87-c9d7-468f-b3fc-9f87ae4e42be": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spxChatbot": {
+      "pageUrl": "https://setitest.sharepoint.com/sites/dev/SitePages/DevHome.aspx",
+      "customActions": {
+        "989c6a87-c9d7-468f-b3fc-9f87ae4e42be": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

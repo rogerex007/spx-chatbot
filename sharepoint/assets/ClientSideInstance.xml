@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SpxChatbot"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="989c6a87-c9d7-468f-b3fc-9f87ae4e42be"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
